@@ -23,7 +23,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dilrong.airdog",
+      "publishBundlePath": "ios/rn-dogair/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/rn-dogair/Supporting/shell-app-manifest.json"
+    },
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.10.2-sdk32.0.0-c59c23cd-1d49-49d2-a633-d03f9d554cf6.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.10.5-sdk32.0.0-6b87ee30-8cbe-4cc6-b5ba-b03b77e34f90.tar.gz"
+    },
+    "scheme": "exp2dc870f39a934f35bae4f75de5374d79",
+    "android": {
+      "package": "com.dilrong.airdog",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "description": ""
   }
 }
