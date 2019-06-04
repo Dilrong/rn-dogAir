@@ -2111,9 +2111,9 @@ expo@^32.0.0:
     uuid-js "^0.7.5"
     whatwg-fetch "^2.0.4"
 
-expokit@32.0.5:
-  version "32.0.5"
-  resolved "https://registry.yarnpkg.com/expokit/-/expokit-32.0.5.tgz#4a4c6484f05610d09ec01605b23c9b89f8f08be5"
+expokit@33.0.1:
+  version "33.0.1"
+  resolved "https://registry.yarnpkg.com/expokit/-/expokit-33.0.1.tgz#4d0c4403f1858e8a67e32005cd370c782697f3c1"
   dependencies:
     jsc-android "^224109.1.0"
 
